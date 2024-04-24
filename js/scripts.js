@@ -12,7 +12,6 @@ const createTable = (number, multiplicatorNumber) => {
     multiplicationTable.innerHTML = "";
 
     for(i=1; i<=multiplicatorNumber; i++){
-
         const result = number * i;
 
         const template = `<div class="row">
