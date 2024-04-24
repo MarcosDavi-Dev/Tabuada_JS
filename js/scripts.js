@@ -13,7 +13,7 @@ const createTable = (number, multiplicatorNumber) => {
 
     for(i=1; i<=multiplicatorNumber; i++){
 
-        const result = number * 1;
+        const result = number * i;
 
         const template = `<div class="row">
             <div class="operation">${number} x ${i} = </div>
